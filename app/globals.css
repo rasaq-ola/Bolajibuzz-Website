@@ -133,3 +133,13 @@ html{scroll-padding-top:96px}
 .ft .soc .i-tiktok{background:#010101}
 .ft .soc .i-youtube{background:#FF0000}
 .ft .bot{display:flex;justify-content:center;padding:14px 0 22px;border-top:1px solid rgba(27,15,48,.2)}
+
+/* ===== Footer bottom bar: copyright left, privacy link right ===== */
+.ft .bot{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 0 22px;border-top:1px solid rgba(27,15,48,.2)}
+.ft .bot a{text-decoration:underline;text-decoration-color:#F28221;text-underline-offset:4px;transition:color .2s}
+.ft .bot a:hover{color:#602E9E}
+@media(max-width:1300px){.ft .bot{padding-right:72px}}
+
+/* ===== Policy page ===== */
+.article h3.sub{font-size:1.2rem;margin:1.7em 0 .4em;color:var(--sig)}
+.article a{color:var(--sig);text-underline-offset:3px}

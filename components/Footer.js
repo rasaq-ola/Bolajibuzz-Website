@@ -24,7 +24,10 @@ export default function Footer() {
         </div>
       </div>
       <Socials />
-      <div className="bot"><span>© {new Date().getFullYear()} BolajiBuzz. All rights reserved.</span></div>
+      <div className="bot">
+        <span>© {new Date().getFullYear()} BolajiBuzz. All rights reserved.</span>
+        <Link href="/privacy-policy">Privacy Policy</Link>
+      </div>
     </div></footer>
   );
 }

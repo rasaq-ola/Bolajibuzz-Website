@@ -24,7 +24,6 @@ export const PRINCIPLES = [
   ['Evolution', 'Built to change with you.', 'Systems that evolve with the business.', 'Editable content, replaceable parts, no lock-in.'],
 ];
 export const STEPS = [['Understand', 'Find the real problem.'], ['Diagnose', 'Spot gaps and friction.'], ['Design', 'Map the system and journey.'], ['Build', 'Make the parts.'], ['Connect', 'Make them work as one.'], ['Improve', 'Measure, learn, refine.']];
-// Real details/outcomes go here later. Do not add numbers that are not verified.
 
 export const CASES = [
   {
@@ -55,7 +54,7 @@ export const CASES = [
     details: { problem: '', diagnosis: '', intervention: '', system: '', outcome: '' },
   },
 ];
-// One block per article. Leave body as [] and the page shows a placeholder.
+
 export const POSTS = [
   {
     slug: 'crm-process',                
